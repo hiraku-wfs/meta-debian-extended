@@ -1,2 +1,5 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/glib-2.0:"
-SRC_URI += "file://bin_path.patch"
+SRC_URI += " \
+    file://0001-Revert-Use-absolute-paths-in-pkg-config-files.patch \
+    file://0001-Do-not-write-bindir-into-pkg-config-files.patch \
+"
